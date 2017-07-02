@@ -114,10 +114,10 @@ class WordPrism_Public {
 		$atts = shortcode_atts( [
 			'lang'         => 'none',
 			'command_line' => false,
-			'user'         => 'tung',
+			'user'         => 'admin',
 			'host'         => 'localhost',
 			'output'       => '',
-			'prompt'       => 'PS C:\Users\Tung>',
+			'prompt'       => 'PS C:\Users\Admin>',
 			'line_numbers' => false,
 		], $atts, $tag );
 

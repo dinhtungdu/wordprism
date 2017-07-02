@@ -10,6 +10,7 @@
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       wordprism
  * Domain Path:       /languages
+ * GitHub Plugin URI: dinhtungdu/wordprism
  */
 
 // If this file is called directly, abort.
@@ -22,6 +23,7 @@ if ( ! defined( 'WPINC' ) ) {
  * This action is documented in includes/class-wordprism-activator.php
  */
 function activate_plugin_name() {
+
 	require_once plugin_dir_path( __FILE__ ) . 'includes/class-wordprism-activator.php';
 	WordPrism_Activator::activate();
 }
@@ -31,6 +33,7 @@ function activate_plugin_name() {
  * This action is documented in includes/class-wordprism-deactivator.php
  */
 function deactivate_plugin_name() {
+
 	require_once plugin_dir_path( __FILE__ ) . 'includes/class-wordprism-deactivator.php';
 	WordPrism_Deactivator::deactivate();
 }
@@ -59,4 +62,5 @@ function run_plugin_name() {
 	$plugin->run();
 
 }
+
 run_plugin_name();
