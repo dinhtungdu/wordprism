@@ -142,8 +142,7 @@ class WordPrism_Public {
 		$o .= '>';
 		if ( ! is_null( $content ) ) {
 			// secure output by executing the_content filter hook on $content
-			$content = apply_filters( 'the_content', $content );
-			$o       .= '<code class="language-' . esc_attr( $atts['lang'] ) . '">' . $content . '</code>';
+			$o .= '<code class="language-' . esc_attr( $atts['lang'] ) . '">' . $content . '</code>';
 		}
 		$o .= '</pre>';
 
