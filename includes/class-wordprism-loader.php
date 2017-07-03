@@ -3,7 +3,7 @@
 /**
  * Register all actions and filters for the plugin
  *
- * @link       http://example.com
+ * @link       http://enforty.com
  * @since      1.0.0
  *
  * @package    WordPrism
@@ -57,9 +57,9 @@ class WordPrism_Loader {
 	 */
 	public function __construct() {
 
-		$this->actions = array();
-		$this->filters = array();
-
+		$this->actions    = array();
+		$this->filters    = array();
+		$this->shortcodes = array();
 	}
 
 	/**

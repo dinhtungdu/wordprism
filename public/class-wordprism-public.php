@@ -3,7 +3,7 @@
 /**
  * The public-facing functionality of the plugin.
  *
- * @link       http://example.com
+ * @link       http://enforty.com
  * @since      1.0.0
  *
  * @package    WordPrism
@@ -142,8 +142,7 @@ class WordPrism_Public {
 		$o .= '>';
 		if ( ! is_null( $content ) ) {
 			// secure output by executing the_content filter hook on $content
-			$content = apply_filters( 'the_content', $content );
-			$o       .= '<code class="language-' . esc_attr( $atts['lang'] ) . '">' . $content . '</code>';
+			$o .= '<code class="language-' . esc_attr( $atts['lang'] ) . '">' . $content . '</code>';
 		}
 		$o .= '</pre>';
 

@@ -6,7 +6,7 @@
  * A class definition that includes attributes and functions used across both the
  * public-facing side of the site and the admin area.
  *
- * @link       http://example.com
+ * @link       http://enforty.com
  * @since      1.0.0
  *
  * @package    WordPrism
@@ -69,7 +69,7 @@ class WordPrism {
 	public function __construct() {
 
 		$this->plugin_name = 'wordprism';
-		$this->version     = '1.0.0';
+		$this->version     = '1.0.1';
 
 		$this->load_dependencies();
 		$this->set_locale();
