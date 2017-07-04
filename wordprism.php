@@ -3,7 +3,7 @@
  * Plugin Name:       WordPrism
  * Plugin URI:        http://enforty.com/plugin/wordprism
  * Description:       Syntax highlighting plugin using beautiful highlighter Prism.
- * Version:           1.0.1
+ * Version:           1.0.2
  * Author:            Tung Du
  * Author URI:        http://enforty.com/
  * License:           GPL-2.0+
